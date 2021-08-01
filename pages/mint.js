@@ -144,7 +144,7 @@ bananas out known to man." key="twdesc" />
 
       <div className='px-6 md:flex' style={{ minHeight: 'calc(100vh - 150px)' }}>
 
-        <div className='hidden md:block self-end'>
+        <div className='hidden md:block self-end w-80'>
           <img src='images/lion.png' />
         </div>
 
