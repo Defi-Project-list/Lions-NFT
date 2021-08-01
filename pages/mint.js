@@ -166,7 +166,7 @@ bananas out known to man." key="twdesc" />
               <div style={{ width: "30%" }} className="shadow-none rounded-xl flex flex-col text-center whitespace-nowrap text-white justify-center bg-gren"></div>
             </div>
           </div>
-          <div id='buyBox' className='w-full md:w-2/3'>
+          <div id='buyBox' className='w-full lg:w-2/3'>
             <h1 className='text-5xl font-bold'><span className='text-blau'>Mint Your</span> <span className='text-yallw'>Lazy Lions</span></h1>
             <div id="mint" className="flex justify-around my-16">
               <span className="flex text-2xl text-white items-center bg-grey-lighter rounded rounded-r-none px-3">MINT</span>
