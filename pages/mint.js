@@ -135,8 +135,8 @@ bananas out known to man." key="twdesc" />
           <a href="/" className=""><img src="images/logo.png" width="180" alt="" className="logo-image" /></a>
           <nav className="flex flex-wrap flex-row justify-around items-center">
             {signedIn ?
-              <button className='hover:bg-yellow-400 text-xl font-bold md:text-2xl bg-yallw rounded-full px-14 py-4'>{walletAddress.slice(0, 6) + '...' + walletAddress.slice(-4)}</button>
-              : <button className='hover:bg-yellow-400 text-xl font-bold md:text-2xl bg-yallw rounded-full px-14 py-4' onClick={signIn}>Connect</button>
+              <button className='hover:bg-yellow-400 hover:scale-110 transition-transform text-xl font-bold md:text-2xl bg-yallw rounded-full px-14 py-4'>{walletAddress.slice(0, 6) + '...' + walletAddress.slice(-4)}</button>
+              : <button className='hover:bg-yellow-400 hover:scale-110 transition-transform text-xl font-bold md:text-2xl bg-yallw rounded-full px-14 py-4' onClick={signIn}>Connect</button>
             }
           </nav>
         </div>
@@ -177,8 +177,8 @@ bananas out known to man." key="twdesc" />
                 onChange={e => set_how_many_bananas(e.target.value)} className=' py-3 px-1 rounded-md text-black outline-none font-bold text-2xl bg-gren' />
               <span className="flex text-2xl text-white items-center bg-grey-lighter rounded rounded-r-none px-3">LIONS!</span>
             </div>
-            {saleStarted ? <button className="mint-button hover:bg-yellow-400 w-full font-bold text-2xl bg-yallw text-black py-6" onClick={() => mintBanana(how_many_bananas)}>MINT {how_many_bananas} lions for {(bananaPrice * how_many_bananas) / (10 ** 18)} ETH + GAS</button> :
-              <button className="mint-button hover:bg-yellow-400 w-full font-bold text-2xl bg-yallw text-black py-6 ">SALE IS NOT ACTIVE OR NO WALLET IS CONNECTED</button>
+            {saleStarted ? <button className="mint-button hover:bg-yellow-400 hover:scale-110 transition-transform w-full font-bold text-2xl bg-yallw text-black py-6" onClick={() => mintBanana(how_many_bananas)}>MINT {how_many_bananas} lions for {(bananaPrice * how_many_bananas) / (10 ** 18)} ETH + GAS</button> :
+              <button className="mint-button hover:bg-yellow-400 hover:scale-110 transition-transform w-full font-bold text-2xl bg-yallw text-black py-6 ">SALE IS NOT ACTIVE OR NO WALLET IS CONNECTED</button>
             }
           </div>
         </div>
