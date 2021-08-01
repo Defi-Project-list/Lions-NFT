@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Poppitandfinch';
+  src: url('../fonts/PoppitAndFinch.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppitandfinchsans';
+  src: url('../fonts/PoppitAndFinchSans.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: regular;
+  font-display: swap;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+#bodyy {
+  background-image: url('/images/BG2.jpg');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+#mintbg {
+  font-family: 'Inika', serif;
+  background-image: url('/images/welcomebg.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.montserrat {
+  font-family: Montserrat-Light, sans-serif;
+}
+.Poppitandfinch {
+  font-family: Poppitandfinch, sans-serif;
+}
+
+.Poppitandfinchsans {
+  font-family: Poppitandfinchsans, sans-serif;
+}
+
+.text-blau {
+  color: #13c5eb;
+}
+
+.bg-blau {
+  background-color: #13c5eb;
+}
+
+.text-gren {
+  color: #abdb23;
+}
+
+.bg-gren {
+  background-color: #abdb23;
+}
+
+.text-yallw {
+  color: #faea63;
+}
+
+.bg-yallw {
+  background-color: #faea63;
+}
+
+#buyBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem 3rem;
+  margin-top: 3rem;
+  background: #3f3f3f;
+  color: #fff;
+  border-top-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  box-shadow: 20px 20px 0px 0px #abdb23;
+}
+
+.mint-button {
+  border-top-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+}
