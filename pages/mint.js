@@ -142,14 +142,14 @@ bananas out known to man." key="twdesc" />
         </div>
       </div>
 
-      <div className='md:flex items-center' style={{ minHeight: 'calc(100vh - 130px)' }}>
+      <div className='px-6 md:flex' style={{ minHeight: 'calc(100vh - 150px)' }}>
 
         <div className='hidden md:block self-end'>
           <img src='images/lion.png' />
         </div>
 
-        <div className='md:w-1/2 flex flex-col justify-center items-center'>
-          <div className="w-full md:w-3/4 relative pt-1">
+        <div className='md:w-1/2 flex flex-col self-start justify-center items-center'>
+          <div className="w-full md:w-2/3 relative pt-1">
             <div className="flex mb-2 items-center justify-between">
               <div>
                 <span className="text-2xl inline-block py-1 px-2 uppercase rounded-full text-white">
@@ -166,7 +166,7 @@ bananas out known to man." key="twdesc" />
               <div style={{ width: "30%" }} className="shadow-none rounded-xl flex flex-col text-center whitespace-nowrap text-white justify-center bg-gren"></div>
             </div>
           </div>
-          <div id='buyBox' className='w-full md:w-3/4'>
+          <div id='buyBox' className='w-full md:w-2/3'>
             <h1 className='text-5xl font-bold'><span className='text-blau'>Mint Your</span> <span className='text-yallw'>Lazy Lions</span></h1>
             <div id="mint" className="flex justify-around my-16">
               <span className="flex text-2xl text-white items-center bg-grey-lighter rounded rounded-r-none px-3">MINT</span>
@@ -177,8 +177,8 @@ bananas out known to man." key="twdesc" />
                 onChange={e => set_how_many_bananas(e.target.value)} className=' py-3 px-1 rounded-md text-black outline-none font-bold text-2xl bg-gren' />
               <span className="flex text-2xl text-white items-center bg-grey-lighter rounded rounded-r-none px-3">LIONS!</span>
             </div>
-            {saleStarted ? <button className="mint-button hover:bg-yellow-400 hover:scale-110 transition-transform w-full font-bold text-2xl bg-yallw text-black py-6" onClick={() => mintBanana(how_many_bananas)}>MINT {how_many_bananas} lions for {(bananaPrice * how_many_bananas) / (10 ** 18)} ETH + GAS</button> :
-              <button className="mint-button hover:bg-yellow-400 hover:scale-110 transition-transform w-full font-bold text-2xl bg-yallw text-black py-6 ">SALE IS NOT ACTIVE OR NO WALLET IS CONNECTED</button>
+            {saleStarted ? <button className="rounded-full hover:bg-yellow-400 hover:scale-110 transition-transform w-full font-bold text-2xl bg-yallw text-black py-6" onClick={() => mintBanana(how_many_bananas)}>MINT {how_many_bananas} lions for {(bananaPrice * how_many_bananas) / (10 ** 18)} ETH + GAS</button> :
+              <button className="rounded-full hover:bg-yellow-400 hover:scale-110 transition-transform w-full font-bold text-2xl bg-yallw text-black py-6 ">SALE IS NOT ACTIVE OR NO WALLET IS CONNECTED</button>
             }
           </div>
         </div>
