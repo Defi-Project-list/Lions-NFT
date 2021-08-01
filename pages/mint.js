@@ -142,7 +142,7 @@ bananas out known to man." key="twdesc" />
         </div>
       </div>
 
-      <div className='md:flex items-center' style={{ minHeight: 'calc(100vh - 125px)' }}>
+      <div className='md:flex items-center' style={{ minHeight: 'calc(100vh - 130px)' }}>
 
         <div className='self-end'>
           <img src='images/lion.png' />
